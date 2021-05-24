@@ -1,0 +1,47 @@
+canvas{
+/*   border: 1px solid gray; */
+  margin: 0px 10px 0px 10px;
+}
+      //   キャンパス背景
+/* #concat{ */
+/* var canvas = document.getElementById("images/nui.PNG"); */
+/* var ctx = canvas.getContext("2d"); */
+/* //白でぬりつぶす */
+/* ctx.fillStyle = "white"; */
+/* ctx.fillRect(0, 0, canvas.width, canvas.height); */
+
+
+/*   background-image : url("images/nui.PNG"); */
+/*     background-size: width=200, height=200; */
+
+
+/*     var ctx = canvas.getContext("2d"); */
+/*   background.src = "images/nui.PNG"; */
+/*   canvas_width=200; */
+/*   canvas_height=200; */
+/*   background.onload = function() { */
+/*     ctx.drawImage(background, 0, 0, canvas_width, background.height* canvas_width / background.width); */
+  }
+}
+button1{
+  width: 150px;
+  height: 150px;
+}
+button2{
+  width: 50px;
+  height: 40px;
+}
+#contents{
+  width: 750px;
+  text-align: center;
+}
+#eraser{
+  text-align: right;
+  margin-right: 10px;
+}
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
