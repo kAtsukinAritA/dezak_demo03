@@ -71,9 +71,17 @@ function drawImage1(){
  * @return {void}
  */
 function eraseCanvas(target){
-  const canvas = document.querySelector(target);
-  const ctx = canvas.getContext("2d");
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const Nui = new Image();
+  Nui.src = "images/nui.PNG";
+  Nui.onload = () =>{
+    const canvas = document.querySelector("#concat");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Nui, 0, 0, canvas.width, canvas.height);
+  }
+  
+//   const canvas = document.querySelector(target);
+//   const ctx = canvas.getContext("2d");
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 /**
